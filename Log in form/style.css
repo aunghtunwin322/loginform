@@ -1,0 +1,96 @@
+body{
+  background-color:#22eaaa ;
+  margin: 0;
+  padding: 0;
+}
+div.container{
+  padding-top: 1px;
+  font-family: 'Varta', sans-serif;
+  border: 1px solid black;
+  background-color:#fcefee;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 45px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.container .login{
+  background-color: #303a52;
+  width: 90%;
+  height: 45px;
+  color: #e2f3f5;
+  margin-top: 20px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Varta', sans-serif;
+  outline: none;
+}
+.container .fb{
+  background-color: #3d5af1;
+  width: 90%;
+  height: 45px;
+  color: #e2f3f5;
+  margin-top: -1px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Varta', sans-serif;
+  outline: none;
+}
+.container .spot{
+  background-color: #17b978;
+  width: 90%;
+  height: 45px;
+  color: #e2f3f5;
+  margin-top: 5px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Varta', sans-serif;
+  outline: none;
+}
+input[type="email"]{
+  font-family: 'Varta', sans-serif;
+  font-size: 16px;
+  background-color:#fcefee ;
+  width:88% ;
+  height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom-style:solid;
+  border-bottom-color: #22eaaa;
+  outline: none;
+}
+input[type="password"]{
+  font-family: 'Varta', sans-serif;
+  font-size: 16px;
+  background-color:#fcefee ;
+  width:88% ;
+  height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom-style:solid;
+  border-bottom-color: #22eaaa;
+  outline: none;
+}
+.container .check{
+  float: left;
+  margin-left: 19px;
+}
+.container .login:hover{
+  box-shadow: 3px 3px  #22eaaa;
+  transition: 0.5s;
+}
+.container .fb:hover{
+  box-shadow: 3px 3px  #22eaaa;
+  transition: 0.5s;
+}
+.container .spot:hover{
+  box-shadow: 3px 3px  #22eaaa;
+  transition: 0.5s;
+}
+.container .login:focus,.container .fb:focus,.container .spot:focus{
+  transition: 0.5s;
+  /* box-shadow:none; */
+}
